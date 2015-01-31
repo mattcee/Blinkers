@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F974FEC61A7C8CA900DB5E30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F974FEC51A7C8CA900DB5E30 /* main.m */; };
+		F974FEC91A7C8CA900DB5E30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F974FEC81A7C8CA900DB5E30 /* AppDelegate.m */; };
+		F974FECC1A7C8CA900DB5E30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F974FECB1A7C8CA900DB5E30 /* ViewController.m */; };
+		F974FECF1A7C8CA900DB5E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F974FECD1A7C8CA900DB5E30 /* Main.storyboard */; };
+		F974FED11A7C8CA900DB5E30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F974FED01A7C8CA900DB5E30 /* Images.xcassets */; };
+		F974FED41A7C8CA900DB5E30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F974FED21A7C8CA900DB5E30 /* LaunchScreen.xib */; };
+		F974FEE01A7C8CA900DB5E30 /* BlinkersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F974FEDF1A7C8CA900DB5E30 /* BlinkersTests.m */; };
+		F974FEEB1A7C911800DB5E30 /* ListOfColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F974FEEA1A7C911800DB5E30 /* ListOfColors.m */; };
+		F974FEEF1A7C918900DB5E30 /* ColorPickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F974FEEE1A7C918900DB5E30 /* ColorPickerModel.m */; };
+		F974FEF21A7C919700DB5E30 /* WordProcessingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F974FEF11A7C919700DB5E30 /* WordProcessingModel.m */; };
+		F974FEF51A7C91A600DB5E30 /* BlinkScreenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F974FEF41A7C91A600DB5E30 /* BlinkScreenModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F974FEDA1A7C8CA900DB5E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F974FEB81A7C8CA900DB5E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F974FEBF1A7C8CA900DB5E30;
+			remoteInfo = Blinkers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F974FEC01A7C8CA900DB5E30 /* Blinkers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blinkers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F974FEC41A7C8CA900DB5E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F974FEC51A7C8CA900DB5E30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F974FEC71A7C8CA900DB5E30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F974FEC81A7C8CA900DB5E30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F974FECA1A7C8CA900DB5E30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F974FECB1A7C8CA900DB5E30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F974FECE1A7C8CA900DB5E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F974FED01A7C8CA900DB5E30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F974FED31A7C8CA900DB5E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F974FED91A7C8CA900DB5E30 /* BlinkersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinkersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F974FEDE1A7C8CA900DB5E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F974FEDF1A7C8CA900DB5E30 /* BlinkersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlinkersTests.m; sourceTree = "<group>"; };
+		F974FEE91A7C911800DB5E30 /* ListOfColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListOfColors.h; sourceTree = "<group>"; };
+		F974FEEA1A7C911800DB5E30 /* ListOfColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListOfColors.m; sourceTree = "<group>"; };
+		F974FEED1A7C918900DB5E30 /* ColorPickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerModel.h; sourceTree = "<group>"; };
+		F974FEEE1A7C918900DB5E30 /* ColorPickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerModel.m; sourceTree = "<group>"; };
+		F974FEF01A7C919700DB5E30 /* WordProcessingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordProcessingModel.h; sourceTree = "<group>"; };
+		F974FEF11A7C919700DB5E30 /* WordProcessingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordProcessingModel.m; sourceTree = "<group>"; };
+		F974FEF31A7C91A600DB5E30 /* BlinkScreenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlinkScreenModel.h; sourceTree = "<group>"; };
+		F974FEF41A7C91A600DB5E30 /* BlinkScreenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlinkScreenModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F974FEBD1A7C8CA900DB5E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F974FED61A7C8CA900DB5E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F974FEB71A7C8CA900DB5E30 = {
+			isa = PBXGroup;
+			children = (
+				F974FEC21A7C8CA900DB5E30 /* Blinkers */,
+				F974FEDC1A7C8CA900DB5E30 /* BlinkersTests */,
+				F974FEC11A7C8CA900DB5E30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F974FEC11A7C8CA900DB5E30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F974FEC01A7C8CA900DB5E30 /* Blinkers.app */,
+				F974FED91A7C8CA900DB5E30 /* BlinkersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F974FEC21A7C8CA900DB5E30 /* Blinkers */ = {
+			isa = PBXGroup;
+			children = (
+				F974FEEC1A7C913200DB5E30 /* Classes */,
+				F974FEC71A7C8CA900DB5E30 /* AppDelegate.h */,
+				F974FEC81A7C8CA900DB5E30 /* AppDelegate.m */,
+				F974FECA1A7C8CA900DB5E30 /* ViewController.h */,
+				F974FECB1A7C8CA900DB5E30 /* ViewController.m */,
+				F974FECD1A7C8CA900DB5E30 /* Main.storyboard */,
+				F974FED01A7C8CA900DB5E30 /* Images.xcassets */,
+				F974FED21A7C8CA900DB5E30 /* LaunchScreen.xib */,
+				F974FEC31A7C8CA900DB5E30 /* Supporting Files */,
+			);
+			path = Blinkers;
+			sourceTree = "<group>";
+		};
+		F974FEC31A7C8CA900DB5E30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F974FEC41A7C8CA900DB5E30 /* Info.plist */,
+				F974FEC51A7C8CA900DB5E30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F974FEDC1A7C8CA900DB5E30 /* BlinkersTests */ = {
+			isa = PBXGroup;
+			children = (
+				F974FEDF1A7C8CA900DB5E30 /* BlinkersTests.m */,
+				F974FEDD1A7C8CA900DB5E30 /* Supporting Files */,
+			);
+			path = BlinkersTests;
+			sourceTree = "<group>";
+		};
+		F974FEDD1A7C8CA900DB5E30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F974FEDE1A7C8CA900DB5E30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F974FEEC1A7C913200DB5E30 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F974FEE91A7C911800DB5E30 /* ListOfColors.h */,
+				F974FEEA1A7C911800DB5E30 /* ListOfColors.m */,
+				F974FEED1A7C918900DB5E30 /* ColorPickerModel.h */,
+				F974FEEE1A7C918900DB5E30 /* ColorPickerModel.m */,
+				F974FEF01A7C919700DB5E30 /* WordProcessingModel.h */,
+				F974FEF11A7C919700DB5E30 /* WordProcessingModel.m */,
+				F974FEF31A7C91A600DB5E30 /* BlinkScreenModel.h */,
+				F974FEF41A7C91A600DB5E30 /* BlinkScreenModel.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F974FEBF1A7C8CA900DB5E30 /* Blinkers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F974FEE31A7C8CA900DB5E30 /* Build configuration list for PBXNativeTarget "Blinkers" */;
+			buildPhases = (
+				F974FEBC1A7C8CA900DB5E30 /* Sources */,
+				F974FEBD1A7C8CA900DB5E30 /* Frameworks */,
+				F974FEBE1A7C8CA900DB5E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blinkers;
+			productName = Blinkers;
+			productReference = F974FEC01A7C8CA900DB5E30 /* Blinkers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F974FED81A7C8CA900DB5E30 /* BlinkersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F974FEE61A7C8CA900DB5E30 /* Build configuration list for PBXNativeTarget "BlinkersTests" */;
+			buildPhases = (
+				F974FED51A7C8CA900DB5E30 /* Sources */,
+				F974FED61A7C8CA900DB5E30 /* Frameworks */,
+				F974FED71A7C8CA900DB5E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F974FEDB1A7C8CA900DB5E30 /* PBXTargetDependency */,
+			);
+			name = BlinkersTests;
+			productName = BlinkersTests;
+			productReference = F974FED91A7C8CA900DB5E30 /* BlinkersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F974FEB81A7C8CA900DB5E30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cai, Matthew";
+				TargetAttributes = {
+					F974FEBF1A7C8CA900DB5E30 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F974FED81A7C8CA900DB5E30 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F974FEBF1A7C8CA900DB5E30;
+					};
+				};
+			};
+			buildConfigurationList = F974FEBB1A7C8CA900DB5E30 /* Build configuration list for PBXProject "Blinkers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F974FEB71A7C8CA900DB5E30;
+			productRefGroup = F974FEC11A7C8CA900DB5E30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F974FEBF1A7C8CA900DB5E30 /* Blinkers */,
+				F974FED81A7C8CA900DB5E30 /* BlinkersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F974FEBE1A7C8CA900DB5E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F974FECF1A7C8CA900DB5E30 /* Main.storyboard in Resources */,
+				F974FED41A7C8CA900DB5E30 /* LaunchScreen.xib in Resources */,
+				F974FED11A7C8CA900DB5E30 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F974FED71A7C8CA900DB5E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F974FEBC1A7C8CA900DB5E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F974FEF21A7C919700DB5E30 /* WordProcessingModel.m in Sources */,
+				F974FEEB1A7C911800DB5E30 /* ListOfColors.m in Sources */,
+				F974FEEF1A7C918900DB5E30 /* ColorPickerModel.m in Sources */,
+				F974FECC1A7C8CA900DB5E30 /* ViewController.m in Sources */,
+				F974FEC91A7C8CA900DB5E30 /* AppDelegate.m in Sources */,
+				F974FEF51A7C91A600DB5E30 /* BlinkScreenModel.m in Sources */,
+				F974FEC61A7C8CA900DB5E30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F974FED51A7C8CA900DB5E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F974FEE01A7C8CA900DB5E30 /* BlinkersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F974FEDB1A7C8CA900DB5E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F974FEBF1A7C8CA900DB5E30 /* Blinkers */;
+			targetProxy = F974FEDA1A7C8CA900DB5E30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F974FECD1A7C8CA900DB5E30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F974FECE1A7C8CA900DB5E30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F974FED21A7C8CA900DB5E30 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F974FED31A7C8CA900DB5E30 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F974FEE11A7C8CA900DB5E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F974FEE21A7C8CA900DB5E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F974FEE41A7C8CA900DB5E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Blinkers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F974FEE51A7C8CA900DB5E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Blinkers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F974FEE71A7C8CA900DB5E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlinkersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blinkers.app/Blinkers";
+			};
+			name = Debug;
+		};
+		F974FEE81A7C8CA900DB5E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlinkersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blinkers.app/Blinkers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F974FEBB1A7C8CA900DB5E30 /* Build configuration list for PBXProject "Blinkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F974FEE11A7C8CA900DB5E30 /* Debug */,
+				F974FEE21A7C8CA900DB5E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F974FEE31A7C8CA900DB5E30 /* Build configuration list for PBXNativeTarget "Blinkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F974FEE41A7C8CA900DB5E30 /* Debug */,
+				F974FEE51A7C8CA900DB5E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F974FEE61A7C8CA900DB5E30 /* Build configuration list for PBXNativeTarget "BlinkersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F974FEE71A7C8CA900DB5E30 /* Debug */,
+				F974FEE81A7C8CA900DB5E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F974FEB81A7C8CA900DB5E30 /* Project object */;
+}
