@@ -10,4 +10,7 @@
 
 @interface ColorPickerModel : NSObject
 
+-(NSDictionary *)allColors;
+
+
 @end
